@@ -25,3 +25,12 @@
 	<li><code>strs[i]</code> consists of only lower-case English letters.</li>
 </ul>
 </div>
+
+<hr>
+<h2>💡 My Idea is...</h2>
+<ol>
+    <li>Sort the array of strings into alphabetical order.</li>
+    <li>The first character of <code>the first element</code> and <code>the last element</code> is checked to see if they are the same, if so, it becomes the longest common prefix string amongst the array of strings.</li>
+    <li>The next character in the first and last element is checked until they are no longer the same.</li>
+    <li>The longest common prefix string amongst the array of strings is output.</li>
+</ol>
